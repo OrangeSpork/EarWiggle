@@ -8,6 +8,12 @@ To use, enable on the character via the Ear Wiggle Menu (in the mod section at t
 
 ![Controls](https://raw.githubusercontent.com/OrangeSpork/EarWiggle/master/EarWiggle/UIOptions.png)
 
+Dampening, Elasticity, Stiffness and Inertia work similarly to other dynamic bones.
+
+Gravity applies force to the ear in the noted direction. Positive GravityX is out from the head, negative in towards the head. If you want a more out than up ears try adding a small X gravity, like 2 or 3.
+
+Col Radius is short for Collision radius and deals with how close colliders need to be to the ear collider for it to react. Note the collider is up at the end of the ear, actually just past the tip.
+
 Notes: The ear forks (base -> upper ear, base -> lower ear). Only the upper ear section is wired up in this initial version, might do the lower ear at some point, but it has some challenges (only a single bone, really).
 
 On accessories: The accessory attachment point is at the earlobe, which isn't affected by this if you stick close. If you want accessories further up the ear conventional attachment won't work.
