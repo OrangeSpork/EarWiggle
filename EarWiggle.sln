@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EarWiggle", "EarWiggle\EarWiggle.shproj", "{13AF9B77-EA72-495C-A74C-C77AD9283EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_EarWiggle", "HS2_EarWiggle\HS2_EarWiggle.csproj", "{18417E8F-4377-455E-99F9-575C0CC7B682}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EarWiggle\EarWiggle.projitems*{13af9b77-ea72-495c-a74c-c77ad9283ebb}*SharedItemsImports = 13
+		EarWiggle\EarWiggle.projitems*{18417e8f-4377-455e-99f9-575c0cc7b682}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18417E8F-4377-455E-99F9-575C0CC7B682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18417E8F-4377-455E-99F9-575C0CC7B682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18417E8F-4377-455E-99F9-575C0CC7B682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18417E8F-4377-455E-99F9-575C0CC7B682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCBCE1D2-3867-4125-AC67-F884D2B6BC2A}
+	EndGlobalSection
+EndGlobal

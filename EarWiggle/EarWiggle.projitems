@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>13af9b77-ea72-495c-a74c-c77ad9283ebb</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>EarWiggle</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)EarWiggleCharaController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EarWiggleMakerGUI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EarWigglePlugin.cs" />
+  </ItemGroup>
+</Project>
