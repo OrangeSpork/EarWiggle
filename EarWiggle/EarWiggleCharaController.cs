@@ -205,6 +205,20 @@ namespace EarWiggle
 
         protected void LateUpdate()
         {
+            if (!LeftEarDBone || !RightEarDBone)
+                return;
+
+            // Convert X & Z gravity to local
+            Vector3 gravitySetting = new Vector3(GravityX * -1, GravityY, GravityZ);
+            Vector3 localGravity = ChaControl.objHeadBone.transform.TransformDirection(gravitySetting);
+            localGravity = new Vector3(localGravity.x, gravitySetting.y, localGravity.z);
+            LeftEarDBone.setGravity(0, localGravity);
+
+            gravitySetting = new Vector3(GravityX, GravityY, GravityZ);
+            localGravity = ChaControl.objHeadBone.transform.TransformDirection(gravitySetting);
+            localGravity = new Vector3(localGravity.x, gravitySetting.y, localGravity.z);
+            RightEarDBone.setGravity(0, localGravity);                
+        
             if (DoEnable)
             {
                 LeftEarDBone.enabled = true;
