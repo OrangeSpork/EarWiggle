@@ -17,7 +17,7 @@ namespace EarWiggle
     {
         public const string GUID = "orange.spork.earwiggle";
         public const string Name = "Ear Wiggle";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
 
         internal ManualLogSource Log => Logger;
 
